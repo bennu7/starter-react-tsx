@@ -1,0 +1,13 @@
+services:
+    prodia-pwa-fe:
+        image: prodia-pwa-fe:1.0.0
+        container_name: prodia-pwa-fe
+        build:
+            context: .
+            dockerfile: Dockerfile
+            target: prod
+        ports:
+            - '4173:4173'
+        environment:
+            - NODE_ENV=production
+            - PORT=4173
