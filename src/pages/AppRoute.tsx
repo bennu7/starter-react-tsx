@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Welcome from './Welcome';
+import { ROUTE_PATES } from './ROUTE_PAGES';
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: ROUTE_PATES.ROOT,
         element: <Welcome />,
     },
 ]);
