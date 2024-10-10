@@ -6,3 +6,5 @@
 - Dockerfile
 - prettier
 - eslint
+- font poppins (google)
+- MUI Icons
